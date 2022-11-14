@@ -1,7 +1,11 @@
 # Notepad React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Скриншоты:
 
-## Available Scripts
+Редактор:
 
-In the project directory, you can run:
+![Image alt](https://github.com/mrsrtAndrey/notepad-react/blob/main/src/screen/1.jpg)
+
+Вход:
+
+![Image alt](https://github.com/mrsrtAndrey/notepad-react/blob/main/src/screen/2.jpg)

@@ -4,8 +4,8 @@
 
 Редактор:
 
-![Image alt](https://github.com/mrsrtAndrey/notepad-react/blob/main/src/screen/1.jpg)
+![Image alt](https://github.com/mrsrtAndrey/notepad-react/blob/main/src/screen/screen1.jpg)
 
 Вход:
 
-![Image alt](https://github.com/mrsrtAndrey/notepad-react/blob/main/src/screen/2.jpg)
+![Image alt](https://github.com/mrsrtAndrey/notepad-react/blob/main/src/screen/screen2.jpg)

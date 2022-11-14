@@ -1,0 +1,77 @@
+
+.sidebar{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   box-sizing: border-box;
+   padding: 20px 15px;
+   background: #272727;
+   min-height: 100vh;
+
+   .user_bar{
+      display: flex;
+      gap: 10px;
+
+      .user_icon{
+         width: 80px;
+         height: 80px;
+         border-radius: 10px;
+         border: solid 2px #ffffff20;
+      }
+      .info{
+         display: flex;
+         flex-direction: column;    
+         align-items: flex-start;
+         justify-content: center;  
+         gap: 7px;
+         h3{
+            margin: 0;
+            padding: 0;
+         }
+         .btn{
+            padding: 7px 15px;
+            background: #ffffff20;
+            color: #ffffffCC;
+            font-size: 14px;
+         }
+      }
+   }
+
+   .search{
+      display: flex;
+      gap: 10px;
+   }
+
+   .carts{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: 100%;
+      user-select: none; 
+      min-height: 200px;
+      padding-right: 5px;
+   }
+}
+
+.carts::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	background-color: #1F1F1FAA;
+}
+
+.carts::-webkit-scrollbar
+{
+	width: 10px;
+   border-radius: 3px;
+	background-color: #272727;
+}
+
+.carts::-webkit-scrollbar-thumb
+{
+	border-radius: 3px;
+	box-shadow: inset 0 0 2px rgba(0,0,0,0.9);
+	background-color: #3F3F3F;
+}

@@ -1,0 +1,53 @@
+
+.filter{
+   .tab_filter{
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: #6c6c6c;
+      cursor: pointer;
+
+      .tilter_text{
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 21px;
+         white-space: nowrap;
+      }
+      .line{
+         width: 100%;
+         height: 2px;
+         background: #525252;
+      }
+      margin-bottom: 15px;
+   }
+
+   .filter_tags{
+      display: flex;
+      flex-wrap: wrap;
+      max-height: 0;
+      overflow: hidden;
+      gap: 10px;
+      transition: all 0.5s;
+      opacity: 0;
+      .tag{
+         font-weight: 600;
+         font-size: 13px;
+         line-height: 16px;
+         color: #3471FF;
+         border: 2px solid #3471FF;
+         padding: 4px 10px;
+         border-radius: 20px;
+         cursor: pointer;
+      }
+
+      .tag.active{
+         color: #fff;
+         background: #3471FF;
+      }
+   }
+
+   .filter_tags.active{
+      max-height: 500px;
+      opacity: 1;
+   }
+}

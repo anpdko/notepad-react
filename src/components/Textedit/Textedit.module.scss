@@ -1,0 +1,84 @@
+
+.textedit{
+   padding: 90px 40px 20px 40px;
+   height: calc(100vh - 110px);
+   overflow-x: hidden;
+   .title{
+      box-sizing: border-box;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 65px;
+      color: #C8C8C8;
+      width: 100%;
+      background: transparent;
+      outline: none;
+      border: 0;
+      padding: 0;
+      resize: none;
+      padding-right: 10px;
+   }
+   .time{
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      color: #FFFFFF;
+      border-bottom: 2px solid #2D2D2D;
+      padding-bottom: 10px;
+      svg{
+         color: #3471FF;
+         margin-right: 7px;
+      }
+   }
+   .tags{
+      font-weight: 600;
+      font-size: 11px;
+      line-height: 16px;
+      color: #898989;
+      width: 100%;
+      background: transparent;
+      outline: none;
+      border: 0;
+      padding: 0;
+   }
+   .text{
+      box-sizing: border-box;
+      display: block;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #FFFFFF;
+      margin: 20px 0;
+      background: transparent;
+      outline: none;
+      border: 0;
+      width: 100%;
+      height: calc(70% - 50px);
+      padding: 0;
+      resize: none;
+      padding-right: 10px;
+      text-align: justify;
+   }
+
+   .text::-webkit-scrollbar-track,
+   .title::-webkit-scrollbar-track
+   {
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: #272727;
+   }
+
+   .text::-webkit-scrollbar,
+   .title::-webkit-scrollbar
+   {
+      width: 12px;
+      background-color: #272727;
+   }
+
+   .text::-webkit-scrollbar-thumb,
+   .title::-webkit-scrollbar-thumb
+   {
+      border-radius: 6px;
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+      background-color: #333333;
+   }
+}
